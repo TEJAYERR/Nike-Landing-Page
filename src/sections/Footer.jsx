@@ -36,8 +36,8 @@ export const Footer = () => {
                     )}
                 </div>
             </div>
-            <div className="text-white flex w-full justify-between mt-24 max-sm:flex-col max-sm:items-center max-sm:justify-center">
-                <p className="flex gap-1 cursor-pointer"><img src={copyrightSign} alt="" /> copyright sign Copyright. All rights reserved</p>
+            <div className="text-white flex w-full justify-between mt-24 max-sm:flex-col max-sm:items-center max-sm:justify-center max-sm:text-[0.7rem]">
+                <p className="flex gap-1 cursor-pointer max-sm:justify-center"><img src={copyrightSign} alt="" /> copyright sign Copyright. All rights reserved</p>
                 <p className="cursor-pointer">Terms & Conditions</p>
             </div>
         </div>

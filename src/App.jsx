@@ -13,28 +13,29 @@ const App = () =>{
   return(
     <main className="pt-[90px]">
       <NavBar />
+      {/* <div className="min-h-screen bg-black"></div> */}
       <section className="pb-15 pt-5">
         <Hero />
       </section>
-      <section className='p-15 min-h-screen'>
+      <section className='p-15 max-sm:px-5'>
         <PopularProducts />
       </section>
-      <section className="p-15 min-h-screen">
+      <section className="p-15 max-sm:px-5">
         <SuperQuality />
       </section>
-      <section className="p-15">
+      <section className="p-15 max-sm:px-5">
         <Services />
       </section>
-      <section className="p-15 min-h-screen">
+      <section className="p-15 max-sm:px-5">
         <SpecialOffers />
       </section>
-      <section className="p-15 bg-blue-50">
+      <section className="p-15 bg-blue-50 max-sm:px-5">
         <CustomerReviews />
       </section>
-      <section className="p-15">
+      <section className="p-15 max-sm:px-5">
         <Subscribe />
       </section>
-      <section className="p-15 bg-black">
+      <section className="p-15 bg-black max-sm:px-5">
        <Footer />
       </section>
     </main>

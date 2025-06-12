@@ -6,7 +6,7 @@ import { hamburger } from '../assets/icons';
 const NavBar = () =>{
     return(
         <nav>
-            <div className="w-full h-[80px] text-gray-500 flex items-center text-[1.12rem] justify-between px-15 fixed top-0 z-50 bg-white/50 rounded-br-md">
+            <div className="w-full h-[80px] text-gray-500 flex items-center text-[1.12rem] justify-between px-15 fixed top-0 z-50 bg-white/50 rounded-br-md max-sm:px-5">
                 <a href='#home' className="logo cursor-pointer">
                     <img src={logo} alt="logo" />
                 </a>

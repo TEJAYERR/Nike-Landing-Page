@@ -5,11 +5,11 @@ import star from '../assets/icons/star.svg'
 const PopularProducts = () => {
     return(
         <div>
-            <h1 className="text-5xl font-semibold">Our
+            <h1 className="text-5xl font-semibold max-sm:text-[2rem]">Our
                 <span className="text-red-400"> Popular </span>
                 Products
             </h1>
-            <p className="mt-10 w-[50%] text-gray-500">Experience top-notch quality and style with our sought-after selections. Discover a world of comfort, design, and value</p>
+            <p className="mt-10 w-[50%] text-gray-500 max-sm:w-full">Experience top-notch quality and style with our sought-after selections. Discover a world of comfort, design, and value</p>
             <div className="flex gap-5 pt-20 max-xl:flex-wrap justify-around items-center">
                 {products.map((product)=>
                     <div className="max-xl:text-center" key={product.name}>
