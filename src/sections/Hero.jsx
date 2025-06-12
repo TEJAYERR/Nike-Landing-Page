@@ -12,7 +12,7 @@ const Hero = () => {
 
     return(
         <div>
-        <div id='home' className='w-full flex-1 flex min-h-screen items-center justify-around gap-5 max-xl:flex-col max-xl:items-start max-xl:justify-center'> 
+        <div id='home' className='w-full flex-1 flex items-center justify-around gap-5 max-xl:flex-col max-xl:items-start max-xl:justify-center'> 
             <div className='bg-white pl-15 max-xl:pr-[90px]'>
                 <p className="text-red-400 font-sans text-[1.33rem] tracking-wider">Our Summer Collection</p>
                 <h1 className="text-8xl mt-9 font-medium max-md:text-6xl">The New Arrival</h1>
