@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/Nike-Landing-Page/', // 👈 Add your repo name here
+  base: '/', // 👈 Add your repo name here
   plugins: [react(), tailwindcss()],
 })
