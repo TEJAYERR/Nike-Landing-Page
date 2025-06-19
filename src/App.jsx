@@ -1,5 +1,5 @@
 import NavBar from "./sections/NavBar";
-import Hero from "./sections/hero";
+import Hero from "./sections/Hero";
 import './App.css'
 import PopularProducts from "./sections/PopularProducts";
 import { SuperQuality } from "./sections/SuperQuality";
